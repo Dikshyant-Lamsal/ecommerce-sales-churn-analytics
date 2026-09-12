@@ -1,0 +1,11 @@
+venv/
+venv_airflow/
+airflow_home/
+data/landing/*.xlsx
+data/landing/monthly/
+data/raw/
+data/staging/
+data/rejected/
+__pycache__/
+*.pyc
+.env
