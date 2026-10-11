@@ -1,0 +1,35 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+venv_airflow/
+.venv/
+.venv
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Airflow
+airflow_home/
+
+# Local datasets and generated data
+data/landing/*.xlsx
+data/landing/monthly/
+data/raw/
+data/staging/
+data/rejected/
+data/monitoring/*.csv
+
+# MLflow tracking and generated artifacts
+mlflow_data/
+mlruns/
+mlflow.db
+artifacts/*
+!artifacts/.gitkeep
+
+# Local agent configuration
+.agents/

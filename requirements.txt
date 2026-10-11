@@ -1,0 +1,16 @@
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+openpyxl
+streamlit
+matplotlib
+plotly
+scikit-learn
+mlflow>=2.13,<4
+fastapi
+uvicorn[standard]
+joblib
+scipy
+requests
+pytest

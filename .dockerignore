@@ -1,0 +1,16 @@
+.git
+.venv
+venv
+venv_airflow
+__pycache__
+*.pyc
+.env
+mlflow_data
+mlruns
+*.db
+data/raw
+data/landing/monthly
+data/staging
+artifacts/*.json
+artifacts/*.csv
+artifacts/*.joblib
