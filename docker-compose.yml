@@ -65,6 +65,8 @@ services:
       dockerfile: dashboard/Dockerfile
     environment:
       CHURN_API_URL: http://api:8000
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      MLFLOW_EXPERIMENT_NAME: ecommerce-customer-churn
       DB_HOST: postgres
       DB_PORT: 5432
       DB_NAME: ${DB_NAME:-ecommerce_dw}
